@@ -128,13 +128,13 @@ And how we want to display content
 }
 
 /* Left hand side headings */
-h3 {
+.benefits h3 {
 	margin-bottom: 10px;
 	text-align: center;
 }
 
 /* Left hand side images settings */
-img {
+.benefits img {
 	display: block;
 	margin: 10px auto;
 	max-width: 150px;
