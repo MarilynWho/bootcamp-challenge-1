@@ -1,3 +1,10 @@
+:root {
+    --main-body-color: #d9dcd6;
+	--main-background-color: #2a607c;
+	--main-text-color: #ffffff;
+	--logo-seo-color: #d9dcd6;
+}
+
 /* Removes standart browser settings for margins and padings in all document */
 * {
 	box-sizing: border-box;
@@ -7,7 +14,7 @@
 
 /* Style for body (the whole document) sets background color */
 body {
-	background-color: #d9dcd6;
+	background-color: var(--main-body-color);
 }
 
 /* Style for text in header */
@@ -15,8 +22,8 @@ body {
 	padding: 20px;
 	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
 		"Lucida Sans", Arial, sans-serif;
-	background-color: #2a607c;
-	color: #ffffff;
+	background-color: var(--main-background-color);
+	color: var(--main-text-color);
 }
 
 /* Style for company title */
@@ -27,7 +34,7 @@ body {
 
 /* Style for SEO part of the company title */
 .seo {
-	color: #d9dcd6;
+	color: var(--logo-seo-color);
 }
 
 /* Style for text in navigaton section of header */
@@ -52,7 +59,7 @@ nav ul li {
 
 /* Style for all links */
 a {
-	color: #ffffff;
+	color: var(--main-text-color);
 	text-decoration: none;
 }
 
@@ -110,7 +117,7 @@ And how we want to display content
 	width: 20%;
 	height: 100%;
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-	background-color: #2589bd;
+	background-color: var(--main-background-color);
 }
 
 /* Left hand side properties defined */
@@ -118,7 +125,7 @@ And how we want to display content
 .benefit-brand,
 .benefit-cost {
 	margin-bottom: 32px;
-	color: #ffffff;
+	color: var(--main-text-color);
 }
 
 /* Left hand side headings */
@@ -142,8 +149,8 @@ img {
 	padding: 50px;
 	height: 300px;
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-	background-color: #0072bb;
-	color: #ffffff;
+	background-color: var(--main-background-color);
+	color: var(--main-text-color);
 }
 
 /* heading in main cimtent section */
