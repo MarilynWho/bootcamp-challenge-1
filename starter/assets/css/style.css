@@ -20,18 +20,18 @@ body {
 }
 
 /* Style for company title */
-.header h1 {
+.company-logo {
 	display: inline-block;
 	font-size: 48px;
 }
 
 /* Style for SEO part of the company title */
-.header h1 .seo {
+.seo {
 	color: #d9dcd6;
 }
 
 /* Style for text in navigaton section of header */
-.header nav {
+nav {
 	padding-top: 15px;
 	margin-right: 20px;
 	float: right;
@@ -40,12 +40,12 @@ body {
 }
 
 /* removes dots from list */
-.header nav ul {
+nav ul {
 	list-style-type: none;
 }
 
-/* Style for navigation section */
-.header nav ul li {
+/* Style for navigation section displays links in line */
+nav ul li {
 	display: inline-block;
 	margin-left: 25px;
 }
