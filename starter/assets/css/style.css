@@ -1,13 +1,16 @@
+/* Removes standart browser settings for margins and padings in all document */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Style for body (the whole document) sets background color */
 body {
     background-color: #d9dcd6;
 }
 
+/* Style for text in header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,16 +18,19 @@ body {
     color: #ffffff;
 }
 
+/* Style for company title */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Style for SEO part of the company title */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+/* Style for text in navigaton section of header */
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,49 +38,67 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/* removes dots from list */
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+/* Style for navigation section */
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Style for all links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Style for all paragraphs */
 p {
     font-size: 16px;
 }
 
-.hero {
+
+/* This section is empty matbe we want to create it in the future*/
+/* .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-}
+} */
 
+/* Image for social media marketing section 
+sets position to left with margin */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Image for Onlime Reputation section
+Sets position to right with margin */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Section of the site with main content
+Sets width and margins
+And how we want to display content
+ */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Stets style for aside section of the site
+    Sets the size for the aside element to 20% of the screen
+    Sets background color and font style
+ */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,20 +110,11 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
 .benefit-lead h3 {
     margin-bottom: 10px;
