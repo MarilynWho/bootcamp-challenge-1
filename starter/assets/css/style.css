@@ -1,5 +1,5 @@
 :root {
-    --main-body-color: #d9dcd6;
+	--main-body-color: #d9dcd6;
 	--main-background-color: #2a607c;
 	--main-text-color: #ffffff;
 	--logo-seo-color: #d9dcd6;
@@ -83,8 +83,7 @@ sets position to left with margin */
 .float-left {
 	float: left;
 	margin-right: 25px;
-    max-height: 200px;
-
+	max-height: 200px;
 }
 
 /* Image for Onlime Reputation section
@@ -92,7 +91,7 @@ Sets position to right with margin */
 .float-right {
 	float: right;
 	margin-left: 25px;
-    max-height: 200px;
+	max-height: 200px;
 }
 
 /* Section of the site with main content
