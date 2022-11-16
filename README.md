@@ -6,7 +6,7 @@ Goal of this Project is to learn HTML Semantic tags and learn the importance of 
 
 At the beginning we have an un optimised code and at the end we have HTML code using semantic tags. As a result site is more accessible, image tags have descriptions, we can easily understand code with added comments.
 
-![Example of the optimized code](./starter/assets/images/optimized-code.jpg)
+![Example of the optimized code](./assets/images/optimized-code.jpg)
 
 ## Link
 [Deployed web application](https://marilynwho.github.io/bootcamp-challenge-1/)
