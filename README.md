@@ -8,8 +8,8 @@ At the beginning we have an un optimised code and at the end we have HTML code u
 
 ![Example of the optimized code](./starter/assets/images/optimized-code.jpg)
 
-## Installetion
-N/A
+## Link
+[Deployed web application](https://marilynwho.github.io/bootcamp-challenge-1/)
 
 ## Credits
 N/A
