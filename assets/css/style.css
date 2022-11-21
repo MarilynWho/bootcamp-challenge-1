@@ -1,97 +1,97 @@
 :root {
-	--main-body-color: #d9dcd6;
-	--main-background-color: #2a607c;
-	--main-text-color: #ffffff;
-	--logo-seo-color: #d9dcd6;
+  --main-body-color: #d9dcd6;
+  --main-background-color: #2a607c;
+  --main-text-color: #ffffff;
+  --logo-seo-color: #d9dcd6;
 }
 
 /* Removes standart browser settings for margins and padings in all document */
 * {
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 /* Style for body (the whole document) sets background color */
 body {
-	background-color: var(--main-body-color);
+  background-color: var(--main-body-color);
 }
 
 /* Style for text in header */
 .header {
-	padding: 20px;
-	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-		"Lucida Sans", Arial, sans-serif;
-	background-color: var(--main-background-color);
-	color: var(--main-text-color);
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
 }
 
 /* Style for company title */
 .company-logo {
-	display: inline-block;
-	font-size: 48px;
+  display: inline-block;
+  font-size: 48px;
 }
 
 /* Style for SEO part of the company title */
 .seo {
-	color: var(--logo-seo-color);
+  color: var(--logo-seo-color);
 }
 
 /* Style for text in navigaton section of header */
 nav {
-	padding-top: 15px;
-	margin-right: 20px;
-	float: right;
-	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-	font-size: 20px;
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
 }
 
 /* removes dots from list */
 nav ul {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 /* Style for navigation section displays links in line */
 nav ul li {
-	display: inline-block;
-	margin-left: 25px;
+  display: inline-block;
+  margin-left: 25px;
 }
 
 /* Style for all links */
 a {
-	color: var(--main-text-color);
-	text-decoration: none;
+  color: var(--main-text-color);
+  text-decoration: none;
 }
 
 /* Style for all paragraphs */
 p {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 /* background image section */
 .hero {
-	height: 800px;
-	width: 100%;
-	margin-bottom: 25px;
-	background-image: url("../images/digital-marketing-meeting.jpg");
-	background-size: cover;
-	background-position: center;
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 /* Image for social media marketing and engine optimization section 
 sets position to left with margin */
 .float-left {
-	float: left;
-	margin-right: 25px;
-	max-height: 200px;
+  float: left;
+  margin-right: 25px;
+  max-height: 200px;
 }
 
 /* Image for Onlime Reputation section
 Sets position to right with margin */
 .float-right {
-	float: right;
-	margin-left: 25px;
-	max-height: 200px;
+  float: right;
+  margin-left: 25px;
+  max-height: 200px;
 }
 
 /* Section of the site with main content
@@ -99,9 +99,9 @@ Sets width and margins
 And how we want to display content
  */
 .content {
-	width: 75%;
-	display: inline-block;
-	margin-left: 20px;
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
 }
 
 /* Stets style for aside section of the site
@@ -109,65 +109,65 @@ And how we want to display content
     Sets background color and font style
  */
 .benefits {
-	margin-right: 20px;
-	padding: 20px;
-	clear: both;
-	float: right;
-	width: 20%;
-	height: 100%;
-	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-	background-color: var(--main-background-color);
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: var(--main-background-color);
 }
 
 /* Left hand side properties defined */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
-	margin-bottom: 32px;
-	color: var(--main-text-color);
+  margin-bottom: 32px;
+  color: var(--main-text-color);
 }
 
 /* Left hand side headings */
 .benefits h3 {
-	margin-bottom: 10px;
-	text-align: center;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 /* Left hand side images settings */
 .benefits img {
-	display: block;
-	margin: 10px auto;
-	max-width: 150px;
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
 }
 
 /* Main content section fonts, paddings,margins,  */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
-	margin-bottom: 20px;
-	padding: 50px;
-	height: 300px;
-	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-	background-color: var(--main-background-color);
-	color: var(--main-text-color);
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
 }
 
 /* heading in main cimtent section */
 .main-section-heading {
-	margin-bottom: 20px;
-	font-size: 36px;
+  margin-bottom: 20px;
+  font-size: 36px;
 }
 
 /* Footer padding and font parameters */
 .footer {
-	padding: 30px;
-	clear: both;
-	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-		"Lucida Sans", Arial, sans-serif;
-	text-align: center;
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
 }
 
 /* Frooter heading size */
 .footer h2 {
-	font-size: 20px;
+  font-size: 20px;
 }
