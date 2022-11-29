@@ -9,7 +9,7 @@ At the beginning we have an un optimised code and at the end we have HTML code u
 ![Example of the optimized code](./assets/images/optimized-code.jpg)
 
 ## Link
-[Deployed web application](https://github.com/MarilynWho/horiseon-refactoring-for-accessibility)
+[Deployed web application](https://marilynwho.github.io/horiseon-refactoring-for-accessibility/)
 
 ## Credits
 N/A
